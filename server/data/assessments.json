@@ -1,0 +1,261 @@
+{
+  "a94d1f21-2572-454e-965f-a862b4b5747b": {
+    "id": "a94d1f21-2572-454e-965f-a862b4b5747b",
+    "user_id": null,
+    "job_description": "Senior Backend Engineer",
+    "judge_type": "technical",
+    "resume_text": "Senior Backend Engineer with 5 years in Node.js, TypeScript, PostgreSQL, Redis, Docker, and Microservices.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best describes a common strategy for SQL query tuning to improve performance?",
+        "options": [
+          "Using nested loops for joins",
+          "Increasing the number of indexes on a table",
+          "Utilizing EXPLAIN to analyze query execution plans",
+          "Avoiding the use of WHERE clauses to speed up data retrieval"
+        ],
+        "correctAnswer": "Utilizing EXPLAIN to analyze query execution plans",
+        "correctIndex": 2,
+        "correctOptionLetter": "C",
+        "explanation": "Option C is correct because using EXPLAIN to analyze query execution plans helps identify bottlenecks and optimize SQL queries. Option A is incorrect because nested loops can be inefficient. Option B is incorrect because while indexes can improve performance, adding too many can degrade it. Option D is incorrect because WHERE clauses are essential for filtering data efficiently.",
+        "category": "SQL Query Tuning"
+      },
+      {
+        "id": "q2",
+        "question": "In a microservices architecture, what is a recommended practice for inter-service communication?",
+        "options": [
+          "Using direct database calls between services",
+          "Storing all service states in a shared database",
+          "Employing RESTful APIs or message brokers for communication",
+          "Relying solely on synchronous communication methods"
+        ],
+        "correctAnswer": "Employing RESTful APIs or message brokers for communication",
+        "correctIndex": 2,
+        "correctOptionLetter": "C",
+        "explanation": "Option C is correct because using RESTful APIs or message brokers allows services to communicate independently and asynchronously, promoting loose coupling. Option A is incorrect because direct database calls violate service boundaries. Option B is incorrect because a shared database can create tight coupling. Option D is incorrect because relying solely on synchronous communication can lead to performance issues and bottlenecks.",
+        "category": "Microservices Architecture"
+      },
+      {
+        "id": "q3",
+        "question": "When designing a caching strategy with Redis, which approach is most effective for handling cache invalidation?",
+        "options": [
+          "Never invalidating the cache to avoid overhead",
+          "Using a time-to-live (TTL) strategy for automatic expiration",
+          "Storing all data in the cache without any expiration",
+          "Manually invalidating the cache after every database update"
+        ],
+        "correctAnswer": "Using a time-to-live (TTL) strategy for automatic expiration",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "Option B is correct because using a TTL strategy automates cache expiration, ensuring data remains fresh without manual intervention. Option A is incorrect because never invalidating the cache can lead to stale data. Option C is incorrect because storing all data without expiration can lead to excessive memory usage. Option D is incorrect because manual invalidation is error-prone and inefficient.",
+        "category": "Caching Strategies"
+      }
+    ],
+    "total_questions": 3,
+    "status": "completed",
+    "created_at": "2026-09-19T17:58:53.247Z",
+    "user_answers": {
+      "q1": 2,
+      "q2": 2,
+      "q3": 1
+    },
+    "raw_score": 100,
+    "correct_answers": 3,
+    "llm_feedback": {
+      "feedback": "The candidate demonstrated strong foundational knowledge but can benefit from advanced practical applications and deeper dives into cutting-edge technologies.",
+      "improvements": [
+        "Enhance system design skills by practicing real-world case studies and discussing trade-offs in design decisions.",
+        "Deepen understanding of advanced algorithms and data structures, particularly those used in distributed systems and high-concurrency environments.",
+        "Improve proficiency in modern tech stacks and frameworks, focusing on practical implementation and performance optimization."
+      ],
+      "grade": "A+"
+    },
+    "completed_at": "2026-09-19T17:58:53.247Z"
+  },
+  "45a366c1-9b4b-4421-aa93-e4bba7465264": {
+    "id": "45a366c1-9b4b-4421-aa93-e4bba7465264",
+    "user_id": "1649ee58-98a2-46d6-aa88-da4958fe3a74",
+    "job_description": "Job Description\n\nWe are looking for a motivated Software Developer / Full Stack Developer to design, develop, test, and maintain web applications. The candidate should have strong programming fundamentals, problem-solving abilities, and knowledge of modern web technologies.\n\nResponsibilities\nDevelop and maintain responsive web applications.\nBuild frontend interfaces and integrate them with backend APIs.\nWrite clean, reusable, and maintainable code.\nDesign and work with databases.\nDebug application issues and perform testing.\nUse Git/GitHub for version control and collaboration.\nParticipate in code reviews and technical discussions.\nUnderstand requirements and convert them into working software features.\nLearn and adapt to new technologies as required.\nEligibility / Qualifications\nB.E./B.Tech/BCA/MCA/B.Sc/M.Sc or equivalent qualification in Computer Science, IT, Electronics, or a related discipline.\nFreshers and entry-level candidates can apply.\nGood understanding of programming fundamentals and Data Structures & Algorithms.\nKnowledge of HTML, CSS, JavaScript, and at least one programming language such as Python, Java, or JavaScript.\nBasic understanding of SQL/databases, REST APIs, Git, and GitHub.\nFamiliarity with frameworks such as React, Node.js, Express, Django, or Spring Boot is an advantage.\nStrong logical thinking, problem-solving, and communication skills.",
+    "judge_type": "technical",
+    "resume_text": "AKSHAY B\nErnakulam, Kerala — +91 77361 79383 — akshayalappuzha@gmail.com\nLinkedIn — GitHub — Portfolio\nSUMMARY\nElectronics and Communication Engineering student specializing in Full-Stack AI, Applied Robotics, and Ma-\nchine Learning. Proven track record in deploying Edge AI, engineering Retrieval-Augmented Generation (RAG)\npipelines, and integrating complex multi-sensor systems. Seeking a Machine Learning / AI Software Internship\nto build robust, scalable intelligent systems.\nSKILLS\nAI & Data Eng.RAG, Amazon Bedrock, Vector DBs (pgvector), OpenCV, TensorFlow (Basics)\nProgrammingPython, JavaScript/TypeScript, C/C++, Embedded C\nWeb & BackendReact, Next.js, Node.js, Express, MongoDB, Supabase, Vercel AI SDK\nRobotics/HardwareROS2, Raspberry Pi 4, ESP32, STM32 Nucleo, Edge AI Inference\nTools & WorkflowsGit/GitHub, Make.com Automation, RESTful APIs, JWT Auth\nEXPERIENCE\nRobotics & Applied AI InternMay 2026 – June 2026\nDepartment of Electronics, CUSATErnakulam, Kerala\n· Deployed software architectures for experimental robots (ROSMaster, TurtleBot3 Burger/Waffle).\n· Fused data from 20+ sensors across Raspberry Pi 4, ESP32, Arduino Minima, and STM32 Nucleo.\n· Executed ROS2 navigation stacks and ran high-fidelity robot simulations in predefined map environments.\n· Optimized and deployed a lightweight ML model for local Edge AI inference directly on a Raspberry Pi 4.\nEmbedded Systems InternMay 2025 – June 2025\nEvolve RoboticsErnakulam, Kerala\n· Programmed microcontroller-based systems for real-time hardware interfacing and digital logic workflows.\n· Designed circuit integrations, improving signal stability for peripheral communication modules.\nPROJECTS\nNexusAI (OmniBot) – Multi-Brand AI Agent — GitHub\n· Built a customer support AI utilizing RAG, Next.js, Vercel AI SDK, and dynamic query categorization.\n· Engineered a knowledge retrieval pipeline using Amazon Bedrock Titan embeddings and Supabase pgvector.\nTestCase – AI-Powered Test Generator — GitHub\n· Developed a full-stack platform (React, Node.js) analyzing repository architectures to auto-generate test cases.\n· Implemented embedding-based semantic memory to improve Bedrock AI outputs using historical generations.\nProjectETHack – AI Personalized News — GitHub\n· Developed a scalable, role-based news generation system with a TypeScript frontend and Python API backend.\nEpicTranslator – Sign Language Detection — GitHub\n· Built a real-time computer vision and sign language recognition system using Python and OpenCV.\nEDUCATION & CERTIFICATIONS\nB.E. in Electronics and Communication — Cochin University of Science and Technology2023 – Present\nCCBP 4.0 Certification Program — NxtWave, India2023 – Present\nCertifications: LLM Application using Python (NxtWave), Python (NxtWave), Frontend Development (NxtWave),\nComputer Architecture (NPTEL).",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following is NOT a valid React component lifecycle method?",
+        "options": [
+          "componentWillMount",
+          "componentDidLoad",
+          "shouldComponentUpdate",
+          "componentWillUnmount"
+        ],
+        "correctAnswer": "componentDidLoad",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "React does not have a lifecycle method called 'componentDidLoad'. The correct method is 'componentDidMount'.",
+        "category": "React"
+      },
+      {
+        "id": "q2",
+        "question": "What is the primary purpose of using RESTful APIs in web development?",
+        "options": [
+          "To create dynamic web pages",
+          "To manage database transactions",
+          "To enable communication between frontend and backend",
+          "To style web pages"
+        ],
+        "correctAnswer": "To enable communication between frontend and backend",
+        "correctIndex": 2,
+        "correctOptionLetter": "C",
+        "explanation": "RESTful APIs are used to facilitate communication between the frontend and backend of web applications.",
+        "category": "Web Development"
+      },
+      {
+        "id": "q3",
+        "question": "Which data structure is best suited for implementing a Last-In-First-Out (LIFO) mechanism?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Linked List",
+          "Binary Tree"
+        ],
+        "correctAnswer": "Stack",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "A Stack is designed to implement LIFO (Last-In-First-Out) mechanism, making it ideal for this purpose.",
+        "category": "Data Structures"
+      },
+      {
+        "id": "q4",
+        "question": "In Node.js, what is the primary role of the 'Express' framework?",
+        "options": [
+          "To handle database operations",
+          "To create server-side applications",
+          "To style web pages",
+          "To manage version control"
+        ],
+        "correctAnswer": "To create server-side applications",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+        "category": "Node.js"
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following is a correct way to declare a state in a functional React component?",
+        "options": [
+          "this.setState({ count: 0 })",
+          "useState(0)",
+          "setState({ count: 0 })",
+          "createState(0)"
+        ],
+        "correctAnswer": "useState(0)",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "In functional React components, state is declared using the 'useState' hook.",
+        "category": "React"
+      },
+      {
+        "id": "q6",
+        "question": "What is the purpose of using 'JWT' in web applications?",
+        "options": [
+          "To style web pages",
+          "To authenticate users",
+          "To manage databases",
+          "To create dynamic content"
+        ],
+        "correctAnswer": "To authenticate users",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "JWT (JSON Web Token) is commonly used for authentication and to securely transmit information between parties.",
+        "category": "Web Development"
+      },
+      {
+        "id": "q7",
+        "question": "Which of the following is NOT a feature of Git?",
+        "options": [
+          "Branching",
+          "Merging",
+          "Compiling",
+          "Version Control"
+        ],
+        "correctAnswer": "Compiling",
+        "correctIndex": 2,
+        "correctOptionLetter": "C",
+        "explanation": "Git is a version control system and does not have a feature for compiling code. Compiling is typically handled by build tools or compilers.",
+        "category": "Version Control"
+      },
+      {
+        "id": "q8",
+        "question": "What is the main advantage of using a NoSQL database like MongoDB over a SQL database?",
+        "options": [
+          "Better support for complex queries",
+          "Schema flexibility",
+          "Stronger data integrity",
+          "Easier to set up"
+        ],
+        "correctAnswer": "Schema flexibility",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "NoSQL databases like MongoDB offer schema flexibility, allowing for more dynamic and varied data structures compared to SQL databases.",
+        "category": "Databases"
+      },
+      {
+        "id": "q9",
+        "question": "In Python, which module is commonly used for making HTTP requests?",
+        "options": [
+          "httplib",
+          "requests",
+          "http.client",
+          "urllib"
+        ],
+        "correctAnswer": "requests",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "The 'requests' module is widely used in Python for making HTTP requests due to its simplicity and powerful features.",
+        "category": "Python"
+      },
+      {
+        "id": "q10",
+        "question": "What is the primary function of the'map' method in JavaScript?",
+        "options": [
+          "To filter elements from an array",
+          "To transform elements in an array",
+          "To reduce an array to a single value",
+          "To sort elements in an array"
+        ],
+        "correctAnswer": "To transform elements in an array",
+        "correctIndex": 1,
+        "correctOptionLetter": "B",
+        "explanation": "The'map' method in JavaScript is used to create a new array by applying a function to each element of the original array.",
+        "category": "JavaScript"
+      }
+    ],
+    "total_questions": 10,
+    "status": "completed",
+    "created_at": "2026-09-19T18:01:19.088Z",
+    "user_answers": {
+      "q1": 1,
+      "q2": 2,
+      "q3": 1,
+      "q4": 1,
+      "q5": 0,
+      "q6": 3,
+      "q7": 1,
+      "q9": 1,
+      "q10": 0
+    },
+    "raw_score": 50,
+    "correct_answers": 5,
+    "llm_feedback": {
+      "feedback": "The candidate should focus on improving their practical skills in React, web development, and database management to meet the job requirements effectively.",
+      "improvements": [
+        "Deepen understanding of React by building complex, state-managed applications and integrating them with backend services to improve frontend skills.",
+        "Enhance web development proficiency by practicing the creation of full-stack applications, focusing on responsive design, and mastering the use of modern CSS frameworks and JavaScript libraries.",
+        "Strengthen database knowledge by designing and implementing various database schemas, optimizing queries, and understanding different types of database relationships and transactions."
+      ],
+      "grade": "F"
+    },
+    "completed_at": "2026-09-19T18:01:19.088Z"
+  }
+}
